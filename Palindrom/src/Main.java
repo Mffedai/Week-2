@@ -10,7 +10,7 @@ public class Main {
             digit++;
         }
         temp=number;
-        for(int i = 0; i < digit ; i++){
+        for(int i = digit-1; i >= 0 ; i--){
 
             palindrom += Math.pow(10,i) *(temp % 10);
             temp/=10;
@@ -25,7 +25,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrom(4554));
-
+        System.out.println(isPalindrom(454));
     }
 }
