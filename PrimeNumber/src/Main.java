@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-
+        //Recursive methods
     public static String prime(int number, int primeNumb){
-        String primeStr ="Sayı asaldır.", NotPrimeStr = "Sayı asal değildir.";
+        //Show the result sentences
+        String primeStr ="The number is prime.", NotPrimeStr = "The number is not prime";
 
         if (primeNumb > 1 && number % primeNumb == 0){
             return NotPrimeStr;
@@ -18,9 +19,10 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
+        //Enter the value from users
         System.out.print("Enter a number : ");
         int number = scan.nextInt();
-        int primeNumb = number-1;
+        int primeNumb = number-1; //primeNumber is control the number with division
         System.out.println(prime(number, primeNumb));
 
     }
