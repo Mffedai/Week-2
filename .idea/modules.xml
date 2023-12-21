@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MethodForDesign/MethodForDesign.iml" filepath="$PROJECT_DIR$/MethodForDesign/MethodForDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Palindrom/Palindrom.iml" filepath="$PROJECT_DIR$/Palindrom/Palindrom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Week-2.iml" filepath="$PROJECT_DIR$/.idea/Week-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/powerCalculation/powerCalculation.iml" filepath="$PROJECT_DIR$/powerCalculation/powerCalculation.iml" />
+    </modules>
+  </component>
+</project>
