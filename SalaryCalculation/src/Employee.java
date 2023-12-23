@@ -13,8 +13,8 @@ public class Employee {
     }
     //Calculate tax price
     public static double tax(int salary){
-        if(salary < 1000){
-            return salary;
+        if(salary <= 1000){
+            return 0;
         } else {
             return salary*0.03;
         }
